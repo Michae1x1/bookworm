@@ -1,0 +1,17 @@
+{
+  "name": "bookworm",
+  "version": "1.0.0",
+  "description": "Discover classic literature from Project Gutenberg",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "type-check": "tsc --noEmit",
+    "clean": "rm -rf dist node_modules"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2",
+    "vite": "^6.0.1"
+  }
+}
